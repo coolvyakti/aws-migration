@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T03:46:23.629Z" agent="5.0 (Windows)" etag="UrIU-inNdfXf1gMMzvkQ" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-16T03:49:52.271Z" agent="5.0 (Windows)" etag="i1Ha9JtE4JkQ0vOekyiC" version="13.8.0" type="github">
   <diagram id="0yw3P8velp2_HJiysXSe" name="Page-1">
     <mxGraphModel dx="1422" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -313,6 +313,12 @@
         </mxCell>
         <mxCell id="sCrCmzliAChRfSRLgv3M-150" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Case&lt;/font&gt;&lt;font style=&quot;font-size: 20px&quot;&gt; study 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="20" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sCrCmzliAChRfSRLgv3M-151" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Load balancer fronting auto scaling group of EC2 instances&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="60" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sCrCmzliAChRfSRLgv3M-152" value="&lt;font style=&quot;font-size: 16px&quot;&gt;User access managed with IAM, group policy, MFA and user credentials&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="202.31" y="570" width="520" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
