@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T03:27:43.549Z" agent="5.0 (Windows)" version="13.8.6" etag="y7UaKzEMLYKllvxfdhYo" type="github"><diagram id="ti6haLm0K889Xe11HH19">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-03T03:33:46.000Z" agent="5.0 (Windows)" etag="7EpjuerfQpXCQDFYvnSe" version="13.8.6" type="github">
+  <diagram id="ti6haLm0K889Xe11HH19" name="Page-1">
+    <mxGraphModel dx="1422" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zBdTYbDa1VpIJIdydPhI-1" value="&lt;font style=&quot;font-size: 17px&quot;&gt;2nd Stage - step 2&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBdTYbDa1VpIJIdydPhI-2" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Create VPC, Aurora database and migrate existing database using AMS&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="510" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
