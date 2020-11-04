@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T04:13:14.878Z" agent="5.0 (Windows)" etag="uFXzqyw1F2OxBWc_5N7X" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T04:14:47.070Z" agent="5.0 (Windows)" etag="NuaN_4RVKDr9YP86lQOV" version="13.8.6" type="github">
   <diagram id="ti6haLm0K889Xe11HH19" name="Page-1">
     <mxGraphModel dx="1422" dy="911" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,8 +126,8 @@
             <mxPoint x="395" y="634" as="targetPoint" />
             <Array as="points">
               <mxPoint x="167" y="624" />
-              <mxPoint x="167" y="684" />
-              <mxPoint x="382" y="684" />
+              <mxPoint x="167" y="705" />
+              <mxPoint x="382" y="705" />
               <mxPoint x="382" y="634" />
             </Array>
           </mxGeometry>
@@ -153,6 +153,9 @@
         </mxCell>
         <mxCell id="zBdTYbDa1VpIJIdydPhI-49" value="Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" vertex="1" parent="1">
           <mxGeometry x="673" y="585" width="113" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="zBdTYbDa1VpIJIdydPhI-50" value="&lt;div&gt;Database&lt;/div&gt;&lt;div&gt;server&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="663" width="65" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
