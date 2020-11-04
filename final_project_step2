@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T04:14:47.070Z" agent="5.0 (Windows)" etag="NuaN_4RVKDr9YP86lQOV" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T04:15:47.782Z" agent="5.0 (Windows)" etag="90UGar9nJaVeuBxZvbrs" version="13.8.6" type="github">
   <diagram id="ti6haLm0K889Xe11HH19" name="Page-1">
     <mxGraphModel dx="1422" dy="911" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -156,6 +156,12 @@
         </mxCell>
         <mxCell id="zBdTYbDa1VpIJIdydPhI-50" value="&lt;div&gt;Database&lt;/div&gt;&lt;div&gt;server&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="244" y="663" width="65" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="zBdTYbDa1VpIJIdydPhI-52" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;" vertex="1" parent="1">
+          <mxGeometry x="628" y="405" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zBdTYbDa1VpIJIdydPhI-53" value="router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="408" width="43" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
