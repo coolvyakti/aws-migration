@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T03:36:03.126Z" agent="5.0 (Windows)" etag="GlFZCqS4xate5mXBqgks" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T03:49:07.354Z" agent="5.0 (Windows)" etag="YiJsurLHqTSBIw41K-Q_" version="13.8.6" type="github">
   <diagram id="ti6haLm0K889Xe11HH19" name="Page-1">
     <mxGraphModel dx="1422" dy="911" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="40" y="20" width="150" height="21" as="geometry" />
         </mxCell>
         <mxCell id="zBdTYbDa1VpIJIdydPhI-2" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Create VPC, Aurora database and migrate existing database using DMS&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="48" y="60" width="520" height="40" as="geometry" />
+          <mxGeometry x="32" y="64" width="520" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zBdTYbDa1VpIJIdydPhI-3" value="On premises" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;" vertex="1" parent="1">
           <mxGeometry x="23" y="392" width="317" height="433" as="geometry" />
@@ -147,8 +147,8 @@
         <mxCell id="zBdTYbDa1VpIJIdydPhI-62" value="&lt;div&gt;Org account &lt;br&gt;&lt;/div&gt;&lt;div&gt;with access policy&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="433" y="430" width="110" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="zBdTYbDa1VpIJIdydPhI-63" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Text&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="42" y="97" width="72" height="43" as="geometry" />
+        <mxCell id="zBdTYbDa1VpIJIdydPhI-63" value="&lt;b&gt;On Premises: &lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Run web app in an VM instance&lt;/li&gt;&lt;li&gt;Back end runs in one or more docker containers.&lt;/li&gt;&lt;li&gt;Back end updates database and saves images on s3 bucket in AWS.using access keys for AWS Org account.&lt;/li&gt;&lt;/ul&gt;AWS:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Create VPC, with route tables and private and public subnet.&lt;/li&gt;&lt;li&gt;Set up IGW - for traffic in/out of public subnet. Route table default entry for traffic to private subnet.&lt;/li&gt;&lt;li&gt;Set up security group to allow access to AWS Aurora for DMS to work.&amp;nbsp; .&lt;br&gt;&lt;/li&gt;&lt;li&gt;Set up DMS and migration task to migrate data and CDC over to AWS Aurora DB.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="96" width="648" height="179" as="geometry" />
         </mxCell>
         <mxCell id="zBdTYbDa1VpIJIdydPhI-65" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
           <mxGeometry x="76" y="273" width="39" height="39" as="geometry" />
