@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T03:25:48.661Z" agent="5.0 (Windows)" etag="WvelSp6MrrZiCAoPxA-5" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T03:27:21.114Z" agent="5.0 (Windows)" etag="BZqBlNtFNiiVnB1ay1hy" version="13.8.6" type="github">
   <diagram id="ti6haLm0K889Xe11HH19" name="Page-1">
     <mxGraphModel dx="1422" dy="911" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -161,6 +161,12 @@
             <mxPoint x="95" y="322" as="sourcePoint" />
             <mxPoint x="95" y="386" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zBdTYbDa1VpIJIdydPhI-69" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D05C17;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ecs_task;" vertex="1" parent="1">
+          <mxGeometry x="532" y="705" width="27.23" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zBdTYbDa1VpIJIdydPhI-70" value="&lt;div&gt;migration &lt;br&gt;&lt;/div&gt;&lt;div&gt;task&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="747" width="63" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
