@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T03:17:39.819Z" agent="5.0 (Windows)" etag="lta9XsNE-p72Ii8a2ojw" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T03:18:14.986Z" agent="5.0 (Windows)" etag="dSaqXks6YrbpM0ajv8OT" version="13.8.6" type="github">
   <diagram id="ti6haLm0K889Xe11HH19" name="Page-1">
     <mxGraphModel dx="1422" dy="911" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -98,9 +98,6 @@
               <mxPoint x="387" y="540" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="zBdTYbDa1VpIJIdydPhI-43" value="&lt;div&gt;storage gateway &lt;br&gt;&lt;/div&gt;&lt;div&gt;appliance&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="663" width="101" height="33" as="geometry" />
         </mxCell>
         <mxCell id="zBdTYbDa1VpIJIdydPhI-46" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
           <mxGeometry x="439" y="527" width="42" height="42" as="geometry" />
