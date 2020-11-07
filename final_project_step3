@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-07T20:19:09.195Z" agent="5.0 (Windows)" etag="nUzN6zMDJaSkyAzX6wzF" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-07T20:30:30.711Z" agent="5.0 (Windows)" etag="2Ij48nFmnOUEhl2Tx6sP" version="13.8.6" type="github">
   <diagram id="-vOsz_QXOffnEgD0BmU1" name="Page-1">
     <mxGraphModel dx="1422" dy="911" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -150,6 +150,18 @@
         </mxCell>
         <mxCell id="-vySRiUNSJkWEa-mssrg-53" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Step 3: Deploy application artifacts to AWS managed services&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="64" y="34" width="450" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="-vySRiUNSJkWEa-mssrg-54" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Deploy web application WAR to Elastic Beanstalk service in a public subnet. Choose auto scaling. &lt;br&gt;&lt;/li&gt;&lt;li&gt;Use Route 53 to map former web URL to the public end point of the EBS container.&lt;/li&gt;&lt;li&gt;Deploy containerized Back End to AWS ECS. Ensure it is in a private subnet so it can only be accessed from within the VPC.&lt;/li&gt;&lt;li&gt;Continue with the database that has been migrated previously to AWS Aurora, which remains in its own private subnet.&lt;/li&gt;&lt;li&gt;Configure a &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="89" width="722" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="-vySRiUNSJkWEa-mssrg-55" value="&lt;div&gt;Back end&lt;/div&gt;&lt;div&gt;services&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="614" width="62" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="-vySRiUNSJkWEa-mssrg-56" value="VPC Endpoint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="539" y="740" width="87" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="-vySRiUNSJkWEa-mssrg-57" value="ECS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="599" width="36" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
